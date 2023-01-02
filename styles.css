@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: #F3F1EF;
+}
+
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100%vh;
+    /*background: #F3F1EF;*/
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 1.25rem 0;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0.5rem  1.25rem;
+}
+
+nav ul li:hover{
+    transform: scale(1.1);
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+nav ul li a:hover{
+    color: red;
+    
+}
+
+.btn1{
+    padding:0.5rem 1.5rem;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background-color: red;
+    cursor: pointer;
+    
+}
+
+.descripcion{
+    margin-left: 17%;
+    margin-top: 8%;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.descripcion h1{
+    margin-bottom: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.descripcion p{
+    margin-bottom:  1.5rem;
+}
+
+.col{
+    color: red;
+    font-size: 1.5rem;
+}
+
+.subrayado{
+    text-decoration: line-through;
+}
+.btn2{
+    padding:0.5rem 1.5rem;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn2:hover{
+    transform: scale(1.1);
+}
+.btn3{
+    padding:0.5rem 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn3:hover{
+    transform: scale(1.1);
+    background-color: red;
+}
+.woman{
+    scale: 1.2;
+}
+
+.imagenes{
+    width:45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.imagenes img{
+    height: 100%;
+    position: absolute;
+    left: 60%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.imagenes:hover .asterisco{
+    bottom: 2rem;
+}
+
+.imagenes:hover .woman{
+    left: 55%;
+}
+
+.habilidades{
+    margin-top: 20px;
+    margin-left: 0%;
+    padding: 20px;;
+    letter-spacing: 7.2px;
+    background-color: black;
+    color: white;
+    transform: skew(0, -5deg);
+    font-size: 0.8rem;
+
+}
+
+
+
+
+
+
